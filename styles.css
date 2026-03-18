@@ -1,1 +1,123 @@
-/* Add Global styles here */
+/* Gallery styles */
+.gallery {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+.gallery img {
+	width: 180px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 6px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+	transition: transform 0.2s;
+	cursor: pointer;
+}
+.gallery img:hover {
+	transform: scale(1.07);
+}
+
+/* Contact form styles */
+form.contact-form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.7rem;
+	max-width: 350px;
+	margin: 0 auto 2rem auto;
+}
+form.contact-form input, form.contact-form textarea {
+	padding: 0.5rem;
+	border: 1px solid #bbb;
+	border-radius: 4px;
+	font-size: 1rem;
+}
+form.contact-form button {
+	background: #4a90e2;
+	color: #fff;
+	border: none;
+	padding: 0.7rem;
+	border-radius: 4px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+form.contact-form button:hover {
+	background: #357ab8;
+}
+
+/* Theme switcher styles */
+.theme-switcher {
+	position: absolute;
+	top: 1.2rem;
+	right: 2rem;
+}
+.theme-dark {
+	background: #181c25;
+	color: #f7f7f7;
+}
+.theme-dark header {
+	background: #222b3a;
+}
+.theme-dark main {
+	background: #23283a;
+	color: #f7f7f7;
+}
+.theme-dark footer {
+	background: #111522;
+	color: #f7f7f7;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #f7f7f7;
+	color: #222;
+}
+
+header {
+	background: #4a90e2;
+	color: #fff;
+	padding: 1.5rem 0 1rem 0;
+	text-align: center;
+}
+
+header nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 1rem;
+	font-weight: bold;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+	background: #fff;
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+section {
+	margin-bottom: 2.5rem;
+}
+
+h1, h2 {
+	margin-top: 0;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem 0;
+	background: #222;
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
