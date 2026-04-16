@@ -23,8 +23,3 @@ function showSlides(n) {
     // Display the current slide
     slides[slideIndex-1].style.display = "block";
 }
-
-// Optional: Auto-play functionality (switches every 5 seconds)
-setInterval(() => {
-    plusSlides(1);
-}, 5000);
