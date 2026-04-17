@@ -5,6 +5,19 @@
     <title>Home</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: rgb(17, 17, 17);
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: rgb(255, 0, 212);
+  color: rgb(0, 247, 255);
+}
+</style>
 </head>
 <body>
     <header>
@@ -33,5 +46,16 @@
     <footer>
         <p>&copy; 2026 John Smith</p>
     </footer>
+    
+<button onclick="myFunction()">Toggle party mode!!!!!!!! </button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
+
+
 </html>

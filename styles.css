@@ -1,4 +1,4 @@
-/* General Body Styles */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -9,7 +9,6 @@ body {
     background-color: #f4f4f9;
 }
 
-/* Header and Nav */
 header {
     border-bottom: 2px solid #3498db;
     padding-bottom: 20px;
@@ -29,7 +28,6 @@ nav a:hover {
     color: #2c3e50;
 }
 
-/* Section Styling */
 section {
     background: white;
     padding: 20px;
@@ -42,7 +40,6 @@ h1, h2 {
     color: #2c3e50;
 }
 
-/* List Styling */
 ul {
     list-style-type: square;
     padding-left: 20px;
@@ -52,7 +49,6 @@ li {
     margin-bottom: 10px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     font-size: 0.9em;
